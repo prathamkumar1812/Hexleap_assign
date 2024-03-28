@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Person from '../../../public/unnamed 1.svg'
-import { Props } from 'next/script'
+type Props = {}
 
 
 export default function Collection({collection}: Props & {collection: any}) {

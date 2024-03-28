@@ -8,7 +8,33 @@ import Ads from "@/Components/Ads/Ads";
 import { IoSunnyOutline } from "react-icons/io5";
 import { IoMoon } from "react-icons/io5";
 import { useState } from "react";
-import { persons,collections } from "./Constants/index";
+import { collections } from "./Constants/index";
+export const persons = [
+    {
+        name: "Sacramento River Cats",
+        event: "48 Events",
+        image: '/person22.png',
+        sport: "Baseball"
+    },
+    {
+        name: "Las Vegas Aviators",
+        event: "28 Events",
+        image: "/person20.png",
+        sport: "Baseball"
+    },
+    {
+        name: "New jersey devils",
+        event: "15 Events",
+        image: "/person11.svg",
+        sport: "Ice Hockey"
+    },
+    {
+        name: "Las Vegas Aviators",
+        event: "28 Events",
+        image: "/person20.png",
+        sport: "Baseball"
+    }
+];
 
 
 export default function Home() {
